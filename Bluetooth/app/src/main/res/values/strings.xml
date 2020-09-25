@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="none_found" />
+    <string name="none_paired" />
+</resources>

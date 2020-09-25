@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgd1"
+        android:scaleType="centerCrop"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Fly Ryder"
+        android:textSize="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#EEEBF3"
+        android:background="@drawable/btn_shape"
+        android:id="@+id/fly"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fly"
+        android:layout_marginTop="20dp"
+        android:textSize="45dp"
+        android:textColor="#FAFAFB"
+        android:id="@+id/fish"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:text="Fish" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fish"
+        android:layout_marginTop="20dp"
+        android:textSize="45dp"
+        android:textColor="#FAFAFB"
+        android:id="@+id/RPS"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:text=" RPS " />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RPS"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_shape"
+        android:text=" Exit "
+        android:layout_centerHorizontal="true"
+        android:textColor="#FAFAFB"
+        android:textSize="45dp" />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/volumeCtrl"
+        android:soundEffectsEnabled="true"
+        android:src="@drawable/ic_volume_up_black_24dp"/>
+
+
+
+
+</RelativeLayout>
